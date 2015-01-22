@@ -8,6 +8,14 @@ Normally you would need to configure the IP address of the NodeJS server into th
 
 But a much easier and plug and play solution for this would be that using the discoverable device library the Arduino will do a broadcast on the local network asking for the server.
 
+Usage
+-----
+Check out the library in your `Arduino/libraries` folder and you're ready to use it.
+
+	git clone git@github.com:Sitebase/discoverable-arduino.git Discoverable
+
+In your Arduino IDE you can check out the example application via `File > Examples > Discoverable > basic`.
+
 How to use
 ----------
 Usage is very simple. For a good example check out the examples folder.
